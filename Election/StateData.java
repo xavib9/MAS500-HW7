@@ -12,9 +12,11 @@ public class StateData {
   public int votesForRomney;
   public double pctForRomney;
 
+  // don't call this - use the factory method below
   public StateData() {
   }
   
+  // Factory method used to create State objects
   public static StateData FromCsvLine(String oneCsvLine){
     // Columns: State Postal,state Name,FIPS,Obama vote,%,Romney vote,%
     String[] columns = oneCsvLine.split(",");

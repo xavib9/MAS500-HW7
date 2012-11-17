@@ -5,6 +5,7 @@ import java.util.*;
  */
 public class ElectionData {
 
+  // map from state 2-letter postal code to StateData object
   public HashMap<String,StateData> stateLookup;
   
   public ElectionData(String[] lines) {
