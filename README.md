@@ -7,7 +7,7 @@ Open the Election.pde to run the example.  Modify the code to do something more 
 Instructions
 ------------
 
-1. Download and install "Processing":http://processing.org/download/
+1. Download and install [Processing](http://processing.org/download/)
 2. Fork/download this repository to your computer
   * If you have a github account, you can fork this with the "fork" button
   * If you want to use your own git repository, you can download this using the "zip" button
